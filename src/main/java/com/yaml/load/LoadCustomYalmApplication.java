@@ -15,6 +15,7 @@ public class LoadCustomYalmApplication {
 	ConfigurableApplicationContext ctx= SpringApplication.run(LoadCustomYalmApplication.class, args);
 		Environment env=ctx.getEnvironment();
 		System.out.println("Odisha abbr ::"+env.getProperty("india.odisha"));
+		System.out.println("test commit");
 	}
 
 }
